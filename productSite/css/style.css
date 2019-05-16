@@ -1007,6 +1007,10 @@ body { background-color: #f8f8f8; font-family: 'Montserrat', sans-serif; }
         display: none;
     }
 
+    .article-button-back {
+        left: 15px;
+    }
+
 
 }
 
