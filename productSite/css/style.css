@@ -4,7 +4,7 @@ body { background-color: #f8f8f8; font-family: 'Montserrat', sans-serif; }
 
 .main { margin-bottom: 90px; }
 
-.button-logout { text-decoration: none; border: none; background-color: #f8f8f8; color: #000000; position: absolute; right: 50px; top: 30px; }
+.button-logout { text-decoration: none; border: none; background-color: rgba(0, 0, 0, 0.0); color: #000000; position: absolute; right: 50px; top: 30px; }
 .button-logout:hover {color: #6D43C3;}
 
 
@@ -122,6 +122,8 @@ body { background-color: #f8f8f8; font-family: 'Montserrat', sans-serif; }
     text-transform: uppercase;
 
     color: #9059E0;
+
+    z-index: 2;
 
     /* purple */
 }
