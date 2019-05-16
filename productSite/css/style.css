@@ -366,6 +366,7 @@ body { background-color: #f8f8f8; font-family: 'Montserrat', sans-serif; }
     overflow:hidden;
     position:fixed;
     top:0px;
+    z-index: 15;
 }
 .b-popup .b-popup-content-congratulations {
     margin:100px auto 0px auto;
@@ -955,7 +956,7 @@ body { background-color: #f8f8f8; font-family: 'Montserrat', sans-serif; }
     margin-bottom: 50px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 990px) {
 
     .right {
         margin-top: 30px;
@@ -1006,4 +1007,41 @@ body { background-color: #f8f8f8; font-family: 'Montserrat', sans-serif; }
         display: none;
     }
 
+
+}
+
+@media screen and (max-width: 450px){
+    .b-popup .b-popup-content-congratulations {
+        width: 80%;
+    }
+    .b-popup .b-popup-content-close {
+        width: 80%;
+    }
+    .b-popup .b-popup-content-sure {
+        width: 80%;
+    }
+    .b-popup-content-congratulations img {
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 16;
+    }
+    .b-popup-content-congratulations .close {
+        z-index: 17;
+    }
+    .b-popup-content-close img {
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 16;
+    }
+    .b-popup-content-close .close {
+        z-index: 17;
+    }
+    .b-popup-content-sure img {
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 16;
+    }
+    .b-popup-content-sure .close {
+        z-index: 17;
+    }
 }
